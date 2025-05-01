@@ -1,4 +1,30 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кафе ISMAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #b84d1b;
+      padding: 40px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 3…
+[18:53, 01.05.2025] Isa: <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -13,34 +39,44 @@
       color: #333;
     }
     header {
-      background-color: #fff;
-      padding: 20px;
+      background-color: #b84d1b;
+      padding: 40px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: white;
     }
     header h1 {
       margin: 0;
-      color: #b84d1b;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
     }
     nav {
       display: flex;
       justify-content: center;
-      gap: 20px;
-      background-color: #f4f4f4;
-      padding: 10px 0;
+      gap: 30px;
+      background-color: #333;
+      padding: 15px 0;
     }
     nav a {
+      color: white;
       text-decoration: none;
-      color: #333;
       font-weight: bold;
     }
+    nav a:hover {
+      color: #ffcc99;
+    }
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 30px auto;
       padding: 0 20px;
     }
     h2 {
       color: #b84d1b;
+    }
+    ul {
+      line-height: 1.8;
     }
     .gallery {
       display: grid;
@@ -50,12 +86,18 @@
     .gallery img {
       width: 100%;
       border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
     footer {
-      background-color: #f4f4f4;
+      background-color: #333;
+      color: white;
       text-align: center;
       padding: 20px;
       margin-top: 40px;
+    }
+    footer a {
+      color: #ffcc99;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -63,52 +105,47 @@
 
 <header>
   <h1>Кафе ISMAN</h1>
-  <p>Восточная и европейская кухня, донеры, фастфуд, суши и пицца</p>
+  <p>Восточная и европейская кухня — вкусно, сытно, по-домашнему</p>
 </header>
 
 <nav>
   <a href="#about">О нас</a>
   <a href="#menu">Меню</a>
   <a href="#gallery">Галерея</a>
-  <a href="#delivery">Доставка</a>
   <a href="#contacts">Контакты</a>
 </nav>
 
 <section id="about">
   <h2>О нас</h2>
-  <p>Кафе ISMAN — это место, где встречаются вкусы Востока и Европы. Мы предлагаем сочные донеры, ароматные пиццы, свежие суши и блюда на любой вкус. Уютная атмосфера, качественные продукты и быстрое обслуживание ждут вас каждый день!</p>
+  <p>Кафе ISMAN — это уютное место в центре Экибастуза, где вы можете насладиться лучшими блюдами Востока, Европы, фастфудом и десертами. Мы готовим с душой и всегда рады гостям!</p>
 </section>
 
 <section id="menu">
   <h2>Меню</h2>
   <ul>
-    <li>Шашлыки и блюда Востока</li>
-    <li>Пасты и салаты Европы</li>
+    <li>Шашлыки (баранина, курица, люля-кебаб)</li>
+    <li>Пицца с разными начинками</li>
     <li>Донеры и фастфуд</li>
     <li>Суши и роллы</li>
-    <li>Пицца с разными начинками</li>
+    <li>Пасты, салаты и десерты</li>
   </ul>
 </section>
 
 <section id="gallery">
   <h2>Галерея</h2>
   <div class="gallery">
-    <img src="https://via.placeholder.com/300x200?text=Dish+1" alt="Блюдо 1" />
-    <img src="https://via.placeholder.com/300x200?text=Dish+2" alt="Блюдо 2" />
-    <img src="https://via.placeholder.com/300x200?text=Dish+3" alt="Блюдо 3" />
+    <img src="images/shashlik.jpg" alt="Шашлык" />
+    <img src="images/pizza.jpg" alt="Пицца" />
+    <img src="images/doner.jpg" alt="Донер" />
+    <!-- Добавь сюда ещё <img src="images/название_файла.jpg" alt="Описание"> -->
   </div>
-</section>
-
-<section id="delivery">
-  <h2>Доставка</h2>
-  <p>Мы доставляем еду быстро и горячей! Закажите любимые блюда прямо сейчас через наш Instagram или по телефону ниже.</p>
 </section>
 
 <section id="contacts">
   <h2>Контакты</h2>
-  <p><strong>Адрес:</strong> г. Кебастус, ул. Вкуса, 15</p>
-  <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
-  <p><strong>Instagram:</strong> <a href="https://instagram.com/isman_cafe" target="_blank">@isman_cafe</a></p>
+  <p><strong>Адрес:</strong> г. Экибастуз, ул. М.Жусупа 36</p>
+  <p><strong>Телефон для доставки:</strong> <a href="tel:+77055574711">8 705 557 47 11</a></p>
+  <p><strong>Instagram:</strong> <a href="https://instagram.com/isman_cafe_ekibastuz" target="_blank">@isman_cafe_ekibastuz</a></p>
 </section>
 
 <footer>
