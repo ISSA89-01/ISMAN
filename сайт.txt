@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кафе ISMAN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      color: #b84d1b;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #f4f4f4;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #b84d1b;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Кафе ISMAN</h1>
+  <p>Восточная и европейская кухня, донеры, фастфуд, суши и пицца</p>
+</header>
+
+<nav>
+  <a href="#about">О нас</a>
+  <a href="#menu">Меню</a>
+  <a href="#gallery">Галерея</a>
+  <a href="#delivery">Доставка</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>О нас</h2>
+  <p>Кафе ISMAN — это место, где встречаются вкусы Востока и Европы. Мы предлагаем сочные донеры, ароматные пиццы, свежие суши и блюда на любой вкус. Уютная атмосфера, качественные продукты и быстрое обслуживание ждут вас каждый день!</p>
+</section>
+
+<section id="menu">
+  <h2>Меню</h2>
+  <ul>
+    <li>Шашлыки и блюда Востока</li>
+    <li>Пасты и салаты Европы</li>
+    <li>Донеры и фастфуд</li>
+    <li>Суши и роллы</li>
+    <li>Пицца с разными начинками</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Dish+1" alt="Блюдо 1" />
+    <img src="https://via.placeholder.com/300x200?text=Dish+2" alt="Блюдо 2" />
+    <img src="https://via.placeholder.com/300x200?text=Dish+3" alt="Блюдо 3" />
+  </div>
+</section>
+
+<section id="delivery">
+  <h2>Доставка</h2>
+  <p>Мы доставляем еду быстро и горячей! Закажите любимые блюда прямо сейчас через наш Instagram или по телефону ниже.</p>
+</section>
+
+<section id="contacts">
+  <h2>Контакты</h2>
+  <p><strong>Адрес:</strong> г. Кебастус, ул. Вкуса, 15</p>
+  <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+  <p><strong>Instagram:</strong> <a href="https://instagram.com/isman_cafe" target="_blank">@isman_cafe</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Кафе ISMAN. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
