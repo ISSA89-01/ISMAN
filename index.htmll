@@ -1,0 +1,121 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кафе ISMAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #b84d1b;
+      padding: 40px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      font-weight: bold;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #333;
+      padding: 15px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #b84d1b;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #b84d1b;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #b84d1b;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Кафе ISMAN</h1>
+  <p>Восточная и европейская кухня, донеры, фастфуд, суши и пицца</p>
+</header>
+
+<nav>
+  <a href="#about">О нас</a>
+  <a href="#menu">Меню</a>
+  <a href="#delivery">Доставка</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>О нас</h2>
+  <p>Кафе ISMAN — это место, где встречаются вкусы Востока и Европы. Мы предлагаем сочные донеры, ароматные пиццы, свежие суши и блюда на любой вкус. Уютная атмосфера, качественные продукты и быстрое обслуживание ждут вас каждый день!</p>
+</section>
+
+<section id="menu">
+  <h2>Меню</h2>
+  <ul>
+    <li>Шашлыки и блюда Востока</li>
+    <li>Пасты и салаты Европы</li>
+    <li>Донеры и фастфуд</li>
+    <li>Суши и роллы</li>
+    <li>Пицца с разными начинками</li>
+  </ul>
+</section>
+
+<section id="delivery">
+  <h2>Доставка</h2>
+  <p>Мы доставляем еду быстро и горячей! Закажите любимые блюда прямо сейчас через наш Instagram или по телефону ниже.</p>
+</section>
+
+<section id="contacts">
+  <h2>Контакты</h2>
+  <p><strong>Адрес:</strong> Экибастуз, ул. М. Жусупа 36</p>
+  <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+  <p><strong>Instagram:</strong> <a href="https://instagram.com/isman_cafe_ekibastuz" target="_blank">@isman_cafe_ekibastuz</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Кафе ISMAN. Все права защищены.</p>
+  <p>Следите за нами в социальных сетях: <a href="https://instagram.com/isman_cafe_ekibastuz" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+</footer>
+
+</body>
+</html>
